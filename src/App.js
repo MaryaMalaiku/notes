@@ -29,6 +29,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
+        <p>Нотатки</p>
         <Notes 
             notes={this.state.notes} 
             onDelete={this.onNoteDelete} 

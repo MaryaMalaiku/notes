@@ -2,3 +2,12 @@
     margin: 0;
     padding: 2rem;
 }
+ 
+p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+}

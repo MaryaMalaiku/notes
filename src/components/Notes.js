@@ -7,9 +7,11 @@ class Notes extends Component {
         <div className="Notes">
             <CreateNote onCreate={this.props.onCreate}/>
             {this.props.notes.map((text, index) => {
+            if(text !==""){
                 return <Note text={text} 
                              key={index} 
                              onDelete={() => this.props.onDelete(index)}/>
+            }
             })}
         </div>
         )
@@ -18,13 +20,16 @@ class Notes extends Component {
 
 class Note extends Component {
     render() {
+        const rows = this.props.text.split('\n').length;
         return (
         <div className="Notes__note">
             <span className="Notes__note_delete" 
                   onClick={this.props.onDelete}>
                   &times;
             </span>
-            {this.props.text}
+            <textarea readOnly className="Notes__note_textarea" 
+                      value={this.props.text} 
+                      rows={rows}></textarea>
         </div>
         )
     }
