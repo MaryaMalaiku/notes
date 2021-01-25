@@ -30,10 +30,9 @@ class App extends Component {
     return (
       <div className="App">
         <p>Нотатки</p>
-        <Notes 
-            notes={this.state.notes} 
-            onDelete={this.onNoteDelete} 
-            onCreate={this.onNoteCreate}
+        <Notes notes={this.state.notes} 
+               onDelete={this.onNoteDelete} 
+               onCreate={this.onNoteCreate}
         />
       </div>
     )

@@ -69,14 +69,14 @@ class CreateNote extends Component {
                     placeholder="Напишіть..."
                     value={this.state.text} 
                     onChange={this.onTextChange}/>
-        <div className='Notes__create_buttons'>
-          <button  className="Notes__create_buttonSave" 
-                   onClick={this.onSave}
-                   >Зберегти</button>
-          <button  className="Notes__create_buttonReset" 
-                   onClick={this.onReset}
-                   >Скинути</button>
-        </div>
+          <div className='Notes__create_buttons'>
+              <button  className="Notes__create_buttonSave" 
+                       onClick={this.onSave}
+                       >Зберегти</button>
+              <button  className="Notes__create_buttonReset" 
+                       onClick={this.onReset}
+                       >Скинути</button>
+          </div>
          </div>
         )
     }
