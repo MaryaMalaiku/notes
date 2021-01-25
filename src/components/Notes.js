@@ -68,7 +68,7 @@ class CreateNote extends Component {
                    >Зберегти</button>
           <button  className="Notes__create_buttonReset" 
                    onClick={this.onReset}
-                   >-</button>
+                   >Скинути</button>
          </div>
         )
     }

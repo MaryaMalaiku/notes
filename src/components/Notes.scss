@@ -1,9 +1,11 @@
-$grey: #858585;
+$blue: rgb(88, 194, 255);
+$purple: rgb(212, 70, 255);
 
 .Notes {
     min-width: 30rem;
     padding: 3rem 10rem;
     font-size: 1.3em;
+    background-color: $blue;
 
     &__сreate {
         width: 100%;
@@ -14,7 +16,7 @@ $grey: #858585;
         height: 8rem;
         margin-bottom: 1rem;
         padding: 1rem;
-        border: 1px solid $grey;
+        border: 1px solid $purple;
         font-size: 1.3em;
     }
 
@@ -23,7 +25,7 @@ $grey: #858585;
         flex-direction: row;
         font-weight: 600;
         padding: 0.77rem 2.5rem;
-        background-color: $grey;
+        background-color: $purple;
         color: white;
         cursor: pointer;
         margin: 2rem;
@@ -36,7 +38,7 @@ $grey: #858585;
         font-weight: 600;
         padding: 0.75rem 2.5rem;
         background-color: #ffffff;
-        color: $grey;
+        color: $blue;
         cursor: pointer;
         margin: 2rem;
         font-size: 1rem;
@@ -46,9 +48,9 @@ $grey: #858585;
     &__note {
         position: relative;
         padding: 1rem;    
-        border: 1px solid $grey;
         margin-bottom: 1rem;
         width: 100%;
+        background-color: white;
     }
 
     &__note_delete {
@@ -57,7 +59,7 @@ $grey: #858585;
             right: -1rem;
             width: 1.6rem;
             height: 1.6rem;
-            background: $grey;
+            background: $purple;
             color: white;
             text-align: center;
             border-radius: 50%;
