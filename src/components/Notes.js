@@ -65,7 +65,7 @@ class CreateNote extends Component {
                     onChange={this.onTextChange}/>
           <button  className="Notes__create_buttonSave" 
                    onClick={this.onSave}
-                   >Зберехти</button>
+                   >Зберегти</button>
           <button  className="Notes__create_buttonReset" 
                    onClick={this.onReset}
                    >-</button>
