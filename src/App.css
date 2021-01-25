@@ -1,11 +1,10 @@
 .App {
     margin: 0;
-    padding: 2rem;
+    padding: 2rem 3rem;
 }
  
 p {
     font-family: 'Open Sans';
-    font-style: normal;
     margin-bottom: 1.5rem;
     display: flex;
     justify-content: center;
