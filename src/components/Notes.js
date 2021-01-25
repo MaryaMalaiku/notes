@@ -60,11 +60,12 @@ class CreateNote extends Component {
         return (
         <div className="Notes__сreate">
           <textarea className="Notes__сreate_input" 
+                    placeholder="Напишіть..."
                     value={this.state.text} 
                     onChange={this.onTextChange}/>
           <button  className="Notes__create_buttonSave" 
                    onClick={this.onSave}
-                   >+</button>
+                   >Зберехти</button>
           <button  className="Notes__create_buttonReset" 
                    onClick={this.onReset}
                    >-</button>
