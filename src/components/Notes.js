@@ -11,6 +11,8 @@ class Notes extends Component {
                 return <Note text={text} 
                              key={index} 
                              onDelete={() => this.props.onDelete(index)}/>
+            }else {
+                return null;
             }
             })}
         </div>
